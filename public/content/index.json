@@ -1,0 +1,18 @@
+{
+  "novels": [
+    {
+      "id": "tg1",
+      "title": "Tenacity Genius of a Cultivation World",
+      "slug": "tenacity-genius-of-a-cultivation-world",
+      "author": "paokels",
+      "tags": ["Xianxia", "Wuxia", "Dark Fantasy", "Adventure"],
+      "rating": 5,
+      "cover": "https://piramideejecutores.com/recursos/image",
+      "basePath": "/content/tenacity-genius-of-a-cultivation-world",
+      "chapters": [
+        {"title": "Prologue: Wolf Debt", "content": "In the hour between smoke and dawn, the pack came—teeth like broken moonlight..."},
+        {"title": "Ch. 1: First Breath of Qi", "content": "Cold dew beaded on the bark. She traced the meridians like a needle following thread..."}
+      ]
+    }
+  ]
+}
