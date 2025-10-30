@@ -121,7 +121,7 @@ export default function SheavesApp() {
   useEffect(() => {
     (async () => {
       try {
-        const r = await fetch('/content/index.json', { cache: 'no-store' });
+        const r = await fetch('https://paokelsheavensapp.netlify.app/.netlify/functions/content-index', { cache: 'no-store' });
         if (r.ok) {
           const data = await r.json();
           const list = (Array.isArray(data) ? data : data?.novels) || [];
