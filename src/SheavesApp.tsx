@@ -40,7 +40,7 @@ const storage = {
   set(k: string, v: unknown) {
     try {
       localStorage.setItem(k, JSON.stringify(v));
-    } catch {}
+    } catch {}  
   },
 };
 
@@ -68,11 +68,7 @@ const seed: Novel = {
   tags: ['Xianxia', 'Wuxia', 'Dark Fantasy', 'Adventure'],
   rating: 5,
   cover: 'https://piramideejecutores.com/recursos/image',
-  synopsis: `Xiao is eight—the daughter of a humble teacher and a gifted seamstress, both retired martial artists. Her world is the Boundless World: a ruthless, chaotic realm where survival belongs to the strong. Immortal cultivators, privileged from birth, hoard vast cultivation arts and have nearly monopolized power, subjugating most other species.
-
-"Father, Mother—your daughter will prevail. I will climb to the summit of the martial path you taught me. The world will remember your names... but first, I will cut down those wretched wolves."
-
-Can a ‘fragile’, ‘small’ girl survive even her first year alone in the jungle? Follow Xiao as she faces formidable foes, uncovers ancient secrets, and awakens her true potential in a world where only the strong are allowed to keep breathing.`,
+  synopsis: `.`,
   chapters: [
     {
       title: 'Prologue: Wolf Debt',
